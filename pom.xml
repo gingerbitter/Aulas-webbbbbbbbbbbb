@@ -34,6 +34,11 @@
                  </configuration> 
                
             </plugin>
+            
+            <plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
         </plugins>
     </build>
 
@@ -164,6 +169,20 @@
         <version>2.0.0-alpha4</version>
         <scope>test</scope>
     </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>3.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <version>3.0.1</version>
+    <scope>test</scope>
+</dependency>
 
 
  </dependencies>
