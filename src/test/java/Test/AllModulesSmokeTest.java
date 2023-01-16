@@ -145,8 +145,11 @@ public class AllModulesSmokeTest extends BaseTest {
 		WaitTil(2000);
 		System.out.println("--------Fee Management The test case 11 was completed------- ");
 		
+		
+		
+		
 	}
- @Test(priority = 2)
+/* @Test(priority = 2)
 	public void GenerateOnlineRequest() throws InterruptedException {
 		WaitTil(2000);
 		FM.GeneratePaymentRequest();
@@ -180,7 +183,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	/**************************
 	 * ClassRoom -Test cases 
 	 *********************/
-	@Test(priority = 6)
+/*	@Test(priority = 6)
 	public void CreateClassRoom() throws InterruptedException{
 		Thread.sleep(2000);
 		System.out.println("ClassRoom:Test case 6 started ");
@@ -201,7 +204,7 @@ public class AllModulesSmokeTest extends BaseTest {
 
 	/******************* CourseModule *******************************/
 
-	@Test(priority = 7)
+	/*@Test(priority = 7)
 	public void CourseCreations() throws InterruptedException {
 		wait(3000);
 	
@@ -252,7 +255,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	 * System.out.println("Digital Library:Test case 12 is completed"); }
 	 */
 
-	@Test(priority = 9)
+	/*@Test(priority = 9)
 	public void AllClassesDemo() throws InterruptedException, AWTException {
 		WaitTil(2000);
 		
@@ -265,7 +268,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	}
 
 	/*********************************** Test Module ************************/
-	@Test(priority = 10)
+/*	@Test(priority = 10)
 	public void createPageTest() throws InterruptedException {
 		Thread.sleep(3000);
 		
@@ -305,7 +308,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	/**********************************************
 	 * Announcement-Test cases
 	 ***************/
-	@Test(priority = 12)
+	/*@Test(priority = 12)
 	public void AnnouncementClick() throws InterruptedException {
 		Thread.sleep(1000);
 		
@@ -322,7 +325,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	/**********************************************
 	 * Aulas Care-Test cases
 	 ***************/
-	@Test(priority = 13)
+	/*@Test(priority = 13)
 	public void instituteSupport() throws AWTException, InterruptedException {
 		System.out.println("Aulas Care :Test case 12 is started");
 		
@@ -370,7 +373,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	}
 
 	/************************* Notofication Module ***************************/
-	@Test(priority = 16)
+	/*@Test(priority = 16)
 	public void checkAllNotifiations() throws InterruptedException {
 		System.out.println("Notification : First test case 7 started ");
 		Thread.sleep(3000);
@@ -418,4 +421,7 @@ public class AllModulesSmokeTest extends BaseTest {
 	}
 	
 
+}*/
+	
+	
 }

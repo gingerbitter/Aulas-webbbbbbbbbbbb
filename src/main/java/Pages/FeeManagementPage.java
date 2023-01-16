@@ -308,7 +308,7 @@ public class FeeManagementPage extends BaseTest {
 	/************* Settings ***************/
 	@FindBy(xpath = "//a[contains(@href, '/fee-management')]")
 	WebElement FeeManagement4;
-	@FindBy(xpath = "//button[@class='ant-btn']")
+	@FindBy(xpath = "//*[@class='ant-btn ant-btn-default']")
 	WebElement ClickOnSettings;
 	@FindBy(xpath = "(//input[@class='ant-radio-input'])[1]")
 	WebElement PayableByStudents;
