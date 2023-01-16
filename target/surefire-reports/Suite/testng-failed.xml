@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Test.AllModulesSmokeTest">
+        <methods>
+          <include name="selectValuesIndropdown"/>
+          <include name="AddOfflinePaymnet"/>
+          <include name="setup"/>
+          <include name="AnnouncementClick"/>
+          <include name="announcements"/>
+          <include name="CourseCreations"/>
+          <include name="CreateClassRoom"/>
+          <include name="CourseUpdate"/>
+          <include name="Test"/>
+          <include name="instituteSupport"/>
+          <include name="Transaction"/>
+          <include name="resources"/>
+          <include name="createPageTest"/>
+          <include name="viewAll"/>
+          <include name="OverviewAndGenerateOnlineRequest"/>
+          <include name="chatAndCallWithAulasTeam"/>
+          <include name="GenerateOnlineRequest"/>
+          <include name="assignments"/>
+          <include name="AllStudents"/>
+          <include name="AllClassesDemo"/>
+          <include name="checkAllNotifiations"/>
+        </methods>
+      </class> <!-- Test.AllModulesSmokeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
